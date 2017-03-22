@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>from scratch</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- JQuery scripts -->
+	<script src="assets/js/jquery-1.11.2.min.js"></script>
+
+	<!-- Bootstrap Core scripts -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+
+</head>
+<body>
+<!-- header menu -->
+<header>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="col-md-4  logo">
+			<a href="#"><img width="380" height="50" src="assets/img/jain_logo.gif" border="0" alt="Jain Matrimonials" title="Jain Matrimonials"></a>
+			</div>
+
+			<div class="col-md-8">
+				<div class="mediumtxt">
+				<div class="row">
+						<div class="smenu">
+						<a class="#"><span class="icon1"></span> Live Help </a> 
+						<a class="#"> <span class="icon2 "><!-- image come--></span> Contact Us</a> 
+							<a><span class="icon3 "><!--  --></span> Helpline: <span id="livehelpno">0-814-477-8866</span> </a>
+						</div>					
+				</div>
+				<!-- /first row -->
+				<div class="row">					
+					<div class="sform">
+						<div class="wrapper">
+							<form>
+								<div class="inline"><input type="text" name="name/email" class="input" ></div>
+								<div class="inline"><input type="password" name="password" class="input"></div>
+								<div class="inline"><input type="submit" class="btn wdth45" alt="Login" value="Login" border="0"></div>
+								<div class="inline"><span class="" >&nbsp;(OR)&nbsp;</span><a href="javaScript:void(0);">
+									<img width="84" height="22" border="0" title="Login using Facebook" alt="Login using Facebook" src="assets/img
+									/fblogin-button.gif" style="vertical-align:top;"></a></div> 
+								</form>
+							</div>
+						</div>					
+				</div>
+				<!-- /second row -->
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="clear"><!-- --></div>
+<!-- /header menu -->
+				<!-- line-tpnav -->
+				<div id="topnav"></div>
+
+
+<!-- section -->
+<section>
+	
+		
+			
+			<!-- start -->
+			<div class="container" style="padding-top: 56px;">
+				<div class="row col-md-12">
+					<div class="col-md-8" style="font-size: xx-small;">
+					<form class="form-horizontal">
+						<fieldset>
+
+							<!-- Form Name -->
+							<legend class="clr4">Request Details</legend>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="requestName">Your Name</label>  
+								<div class="col-md-3">
+									<input id="requestName" name="requestName" placeholder="Name" class="form-control input-md" required="" type="text">
+
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="company_name">Company Name (To Analyze)</label>  
+								<div class="col-md-5">
+									<input id="company_name" name="company_name" placeholder="Company Name" class="form-control input-md" required="" type="text">
+
+								</div>
+							</div>
+
+							<!-- Select Basic -->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="declineType">Decline Type</label>
+								<div class="col-md-6">
+									<select id="declineType" name="declineType" class="form-control">
+										<option value="Exponential">Exponential (Conventional)</option>
+										<option value="Hyperbolic">Hyperbolic (Unconventional)</option>
+									</select>
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="minB">B Factor Range</label>  
+								<div class="col-md-2">
+									<input id="minB" name="minB" placeholder="min" class="form-control input-md" type="text">
+
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="maxB"></label>  
+								<div class="col-md-2">
+									<input id="maxB" name="maxB" placeholder="max" class="form-control input-md" type="text">
+
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="econLimOil">Economic Limits Oil (STB/D)</label>  
+								<div class="col-md-5">
+									<input id="econLimOil" name="econLimOil" placeholder="company specific range" class="form-control input-md" type="text">
+
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="econLimGas">Economic Limits Gas (SCF/D)</label>  
+								<div class="col-md-3">
+									<input id="econLimGas" name="econLimGas" placeholder="company specific range" class="form-control input-md" type="text">
+
+								</div>
+							</div>
+
+							<!-- Textarea -->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="comments">Comments</label>
+								<div class="col-md-3">                     
+									<textarea class="form-control" id="comments" name="comments"></textarea>
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="deadline">Expected Deadline</label>  
+								<div class="col-md-3">
+									<input id="deadline" name="deadline" placeholder="date" class="form-control input-md" type="text">
+
+								</div>
+							</div>
+
+							<!-- Select Basic -->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="uregency">Urgency</label>
+								<div class="col-md-3">
+									<select id="uregency" name="uregency" class="form-control">
+										<option value="NormalLevel">Normal Level</option>
+										<option value="Urgent">Urgent</option>
+										<option value="VeryUrgent">Very Urgent</option>
+									</select>
+								</div>
+							</div>
+
+							<!-- Button -->
+							<div class="form-group">
+							<label class="col-md-3 control-label" for="submit"></label>
+								<div class="col-md-3">
+									<button id="submit" name="submit" class="btn btn-default">Submit</button>
+								</div>
+							</div>
+
+						</fieldset>
+					</form>
+					</div><!-- form end -->
+				
+				<div class="row">
+				<div class="col-md-4">
+					<!-- box start -->
+					<div class="box1">
+						<div style="padding:6px;">
+							<div class="clr1 regquesticon paddt5" style="text-shadow: 0 0 1px rgba(0,0,0,0.2);"><div style="width:200px;font-stretch:narrower;"><span class="bigtxt-s">Why join</span><div class="mediumhdrtxt clr5" style="width:220px;">Jain Matrimony?</div></div></div><div style="clear:both;"></div>		<div class="hdot1"><!-- --></div>
+							<div style="width:265px;padding-bottom:10px;">
+								<ul>
+									<li class="arrow1">Exclusively caters to Jains</li>
+									<li class="arrow1">Lakhs of member profiles worldwide</li>
+									<li class="arrow1">Easy, safe and 100% privacy</li>
+									<li class="arrow1">Email updates of best matching profiles</li>
+									<li class="arrow1">Better contact options</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- box2 -->
+					<div class="box2">
+					<div style="padding:6px;">
+							<div class="clr1 regeasystepicon paddt5" style="text-shadow: 0 0 1px rgba(0,0,0,0.2);"><span class="padl5 bigtxt-s" style="font-stretch:narrower;">Easy Steps</span><br><span class="mediumhdrtxt clr1 boldtxt padl5">to find your Life Partner</span></div>
+							<div class="hdot1"><!-- --></div>
+							<div style="width:265px;padding-bottom:10px;">
+								<ul>
+									<li class="arrow1">Register and create your profile for free</li>
+									<li class="arrow1">Search for members who match your expectation</li>
+									<li class="arrow1">Contact interested members and get to know them</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- box end -->
+				</div>
+				
+				</div>
+				</div><!-- full row -->
+			</div>
+			<!-- end -->
+			
+</section>
+<!-- /section -->
+<!-- footer -->
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6" style="color:gray">
+					<h3>About Us<h3>
+						<span style="font-size:15px; color:gray;">CommunityMatrimony.com is the only portal in the history of online matrimony to provide matrimony services solely based on community. It has dedicated approximately 300+ portals for various communities across the globe.. more »</span>
+					</div>
+					<div class="col-md-3">
+						<ul style="font-size:15px; color:gray;">			
+						<h3>Quick Links</h3>
+							<li class="arrow1">Exclusively caters to Jains</li>
+							<li class="arrow1">Lakhs of member profiles worldwide</li>
+							<li class="arrow1">Easy, safe and 100% privacy</li>
+							<li class="arrow1">Email updates of best matching profiles</li>
+							<li class="arrow1">Better contact options</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul style="font-size:15px; color:gray;">			
+						<h3>Quick Links</h3>
+							<li class="arrow1">Exclusively caters to Jains</li>
+							<li class="arrow1">Lakhs of member profiles worldwide</li>
+							<li class="arrow1">Easy, safe and 100% privacy</li>
+							<li class="arrow1">Email updates of best matching profiles</li>
+							<li class="arrow1">Better contact options</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
+<!-- /footer -->
+
+</body>
+</html>
+
+<style type="text/css">
+/*****************************       <header> *************************************************/
+	
+
+</style>

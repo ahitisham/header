@@ -1,0 +1,102 @@
+/*header css*/
+.logo{
+		margin-top: 19px;
+	}
+
+	.mediumtxt {
+		float: right;
+		font-size: 85%;	
+	}
+	.smenu .icon1 {
+		background-image: url("../img/mh-icons.png") ;/*very imp="../ "pathset*/
+		background-repeat: no-repeat;/*imp*/
+	}
+	/*image spritin //// image cutting*/
+
+	.icon1 {
+	background-position: -93px -220px;/*imp*/
+    width: 35px;
+    height: 25px;
+    display: inline-block;/*imp*/
+    cursor: pointer;
+    vertical-align: middle;/*imp*/
+	}
+	.smenu .icon2 {
+		background-image: url("../img/mh-icons.png") ;/*imp*/
+		background-repeat: no-repeat;/*imp*/
+	}
+	
+
+	.icon2 {
+	background-position: -130px -220px;/*imp*/
+    width: 35px;
+    height: 25px;
+    display: inline-block;/*imp*/
+    cursor: pointer;
+    vertical-align: middle;/*imp*/
+	}
+	.smenu .icon3 {
+		background-image: url("../img/mh-icons.png") ;/*imp*/
+		background-repeat: no-repeat;/*imp*/
+	}
+	
+
+	.icon3 {
+	background-position: -166px -220px;/*imp*/
+    width: 35px;
+    height: 25px;
+    display: inline-block;/*imp*/
+    cursor: pointer;
+    vertical-align: middle;/*imp*/
+	}
+
+	/*header finishing*/
+	#livehelpno{
+		color: #55c300;
+		font-weight: bold;
+		 font-size: 12px;
+		 
+	}
+	.input{
+		
+    font-family: Arial, Verdana;
+    font-size: 11px;
+    padding: 3px;
+    border: 1px solid #b9bdc1;
+    color: #797979;
+	}
+	.btn {
+    border: 1px solid #92c41f;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 1px;
+    background-color: #94d400;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    line-height: normal;
+	}
+	/*login form inline using wrap and inline block*/
+	div.wrapper {
+     /* or whatever */
+     overflow: hidden;
+     white-space: nowrap;
+ 	}
+
+ 	div.inline {
+ 	display: inline-block;
+ 	}
+ 	#topnav {
+ 	line-height: 5px;
+ 	height: 5px;
+ 	background: #72c22a;
+ 	}
+ 	.smenu a{
+ 		color: gray;
+ 	}
